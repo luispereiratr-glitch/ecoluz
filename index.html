@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoLuz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<!--=============== Start Header Section  ===============-->
+<header class="speedyui speedyui-header">
+    <nav class="navbar navbar-expand-lg py-3 py-lg-0">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.jpg" height="90px" alt="">
+            </a><!--brand identity-->
+            <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <img src="images/interface.png" height="35px" alt="">
+            </button><!--.navbar-toggler-->
+            <div class="navbar-collapse collapse py-3 py-lg-0 bg-black px-4 px-lg-0" id="navbarNavDropdown">
+                <ul class="navbar-nav align-items-start align-items-lg-center ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item py-2 py-lg-4">
+                        <a class="nav-link px-lg-4 py-0" href="index.html">Início</a>
+                    </li><!--.nav-item-->
+                    <li class="nav-item py-2 py-lg-4">
+                        <a class="nav-link px-lg-4 py-0" href="sobre.html">Sobre Nós</a>
+                    </li><!--.nav-item-->
+                    <li class="nav-item py-2 py-lg-4">
+                        <a class="nav-link px-lg-4 py-0" href="servico.html">Nossos Serviço</a>
+                    </li><!--.nav-item-->
+                    <li class="nav-item dropdown px-lg-4 py-0">
+                        <a class="nav-link d-flex align-items-center justify-content-lg-center gap-2 dropdown-toggle px-0 py-2 py-lg-4" href="unidades.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Unidades
+                            <span class="mb-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                                    <path stroke="currentColor" stroke-width="1.2" fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                </svg>
+                            </span>
+                        </a>
+                        <ul class="dropdown-menu border-0 start-0">
+                            <li><a class="dropdown-item py-2" href="poa.html">Porto Alegre-RS</a></li>
+                            <li><a class="dropdown-item py-2" href="gua.html">Guaíba-RS</a></li>
+                            <li><a class="dropdown-item py-2" href="mar.html">Maringá-PR</a></li>
+                        </ul><!--.dropdown-menu-->
+                    </li><!--.dropdown-->
+
+                    <li class="nav-item">
+                        <a target="_blank" href="https://wa.me/5599999999999?text=Ol%C3%A1%2C%20gostaria%20de%20realizar%20um%20or%C3%A7amento!%20Como%20podemos%20prosseguir%3F" >
+                            <button type="button" class="btn primary-btn text-white border-0 px-3 py-2 mt-2 mt-lg-0 rounded-pill">Faça um orçamento agora</button>
+                        </a>
+                    </li><!--.nav-item-->
+                </ul><!--.navbar-nav-->
+            </div><!--.navbar-collapse-->
+        </div><!--.container-->
+    </nav><!--nav-->
+</header>
+<!--=============== End Header Section  ===============-->
+
+<!--INÍCIO CARROSSEL-->
+
+
+<!--important link source from "https://bootsnipp.com/snippets/Vgqld"-->
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Oswald:500" rel="stylesheet">
+<script>!function(e){"undefined"==typeof module?this.charming=e:module.exports=e}(function(e,n){"use strict";n=n||{};var t=n.tagName||"span",o=null!=n.classPrefix?n.classPrefix:"char",r=1,a=function(e){for(var n=e.parentNode,a=e.nodeValue,c=a.length,l=-1;++l<c;){var d=document.createElement(t);o&&(d.className=o+r,r++),d.appendChild(document.createTextNode(a[l])),n.insertBefore(d,e)}n.removeChild(e)};return function c(e){for(var n=[].slice.call(e.childNodes),t=n.length,o=-1;++o<t;)c(n[o]);e.nodeType===Node.TEXT_NODE&&a(e)}(e),e});
+</script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<section>
+
+  <div class="swiper-container slideshow">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/placa1.jpg)"></div>
+        <span class="slide-title">Exotic places</span>
+      </div>
+
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/placa2.jpg)"></div>
+        <span class="slide-title">Meet ocean</span>
+      </div>
+
+      <div class="swiper-slide slide">
+        <div class="slide-image" style="background-image: url(images/placa3.jpg)"></div>
+        <span class="slide-title">Around the world</span>
+      </div>
+
+      <!--         <div class="swiper-slide slide">
+          <div class="slide-imageswiper-lazy" data-background="https://images.unsplash.com/photo-1538083024336-555cf8943ddc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66b476a51b19889e13182c0e4827af18&auto=format&fit=crop&w=1950&q=80">
+          </div>
+          </div>
+          <span class="slide-title">Exotic places</span>
+        </div>
+      
+        <div class="swiper-slide slide">
+          <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80">
+          </div>
+          <span class="slide-title">Meet ocean</span>
+        </div>
+      
+        <div class="swiper-slide slide">
+          <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80">
+          </div>
+          <span class="slide-title">Around the world</span>
+        </div> -->
+
+    </div>
+
+    <div class="slideshow-pagination"></div>
+
+    <div class="slideshow-navigation">
+      <div class="slideshow-navigation-button prev"><span class="fas fa-chevron-left"></span></div>
+      <div class="slideshow-navigation-button next"><span class="fas fa-chevron-right"></span></div>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!--FIM CARROSSEL-->
+
+
+
+</body>
+</html>
